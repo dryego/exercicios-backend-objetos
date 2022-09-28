@@ -1,7 +1,7 @@
 const participantes = [
     { nome: "João" },
     { nome: "Ana" },
-    { nome: "Carlos" }, //Beatriz
+    { nome: "Beatriz" },
     { nome: "Maria" },
     { nome: "Ana Clara" },
     { nome: "Joana" },
