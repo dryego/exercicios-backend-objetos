@@ -19,33 +19,11 @@ const participantes = [
     { nome: "Antonio" },
 ]
 
-// for (let busca of participantes) {
-//     if (busca.nome == "Carlos") {
-//         console.log("galera o carlos esta na fila");
-//         break
-//     }
-// }
 for (let busca = -1; busca < participantes.length; busca++) {
-    const posicaoNaFila = participantes[busca.nome];
+    const posicaoNaFila = participantes[busca];
     if (posicaoNaFila.nome == "Carlos") {
         console.log(`Galera... O Carlos está na posição ${busca}, corre lá!`)
         break;
     }
 
 }
-// let posicaoNaFila = 0
-// for (let busca = 1; busca < participantes.length; busca++) {
-//     if (busca.nome === "Carlos") {
-//         posicaoNaFila += busca;
-//         console.log(`Galera... O Carlos está na posição ${posicaoNaFila}, corre lá!`);
-//     }
-// }
-
-
-
-// for (let i = 1; i < participantes.length; i++) {
-//     const busca = carlos ? participantes[i];
-
-//     console.log(`Galera... O ${busca = "carlos"} esta na posição ${i}`)
-
-// }
